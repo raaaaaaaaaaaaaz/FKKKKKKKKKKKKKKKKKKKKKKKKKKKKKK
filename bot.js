@@ -38,7 +38,7 @@ nounoudz.on('message', message => {//NouNouDz#6720
 
 nounoudz.on('message', message => {//NouNouDz#6720
         if (!nounou.includes(message.author.id)) return;//NouNouDz#6720
-  if (message.content === 'join') {//NouNouDz#6720
+  if (message.content === '932') {//NouNouDz#6720
 message.delete()
   let afk = nounoudz.channels.get('515417209267290132');//NouNouDz#6720
         let generale = nounoudz.channels.get('480651296509132810');//NouNouDz#6720
